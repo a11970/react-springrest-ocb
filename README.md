@@ -8,7 +8,10 @@ Java 8+ and Maven 3.2+ must be installed and properly configured.
 
 Running the code
 ----------------
-In the project folder run the following Maven command to start the application: 
+
+In the file src/main/resources/application.properties, set a valid key for the property ocb.api.key.
+
+In the project folder root run the following Maven command to start the application: 
 
     mvn spring-boot:run
 
