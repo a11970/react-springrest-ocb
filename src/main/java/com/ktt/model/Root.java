@@ -5,7 +5,11 @@ import lombok.Data;
 @Data
 public class Root {
     private Station[] stations;
-    public Station[] getStations() {
-        return stations;
+
+    public Root() {
+    }
+
+    public Root(Station[] stations) {
+        this.stations = stations;
     }
 }
