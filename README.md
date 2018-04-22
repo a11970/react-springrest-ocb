@@ -1,5 +1,5 @@
 # react-springrest-ocb
-Test project for consuming the open Oslo City Bike api
+Test project for consuming the open Oslo City Bike api.
 
 
 System requirements
@@ -15,5 +15,7 @@ In the project folder root run the following Maven command to start the applicat
 
     mvn spring-boot:run
 
-Then visit http://localhost:8080.
+Then visit http://localhost:8080. This will display a presentation of the consumed data. To view raw json data 
+for this presentation use the REST endpoint http://localhost:8080/stations.
+
     
